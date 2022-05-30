@@ -16,118 +16,121 @@
     <Filter Include="소스 파일\C++">
       <UniqueIdentifier>{e4a3511e-2e17-4c6d-82e7-cdb766df10df}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\C++\Level1">
+      <UniqueIdentifier>{c0304dc5-e78b-4b98-869d-a9a244bce3a3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="12901.cpp">
-      <Filter>소스 파일\C++</Filter>
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
     <ClCompile Include="12903.cpp">
-      <Filter>소스 파일\C++</Filter>
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
     <ClCompile Include="12906.cpp">
-      <Filter>소스 파일\C++</Filter>
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
     <ClCompile Include="12910.cpp">
-      <Filter>소스 파일\C++</Filter>
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
     <ClCompile Include="12912.cpp">
-      <Filter>소스 파일\C++</Filter>
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
-    <ClCompile Include="12915%28not done%29.cpp">
-      <Filter>소스 파일\C++</Filter>
+    <ClCompile Include="12915.cpp">
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
     <ClCompile Include="12916.cpp">
-      <Filter>소스 파일\C++</Filter>
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
     <ClCompile Include="12917.cpp">
-      <Filter>소스 파일\C++</Filter>
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
     <ClCompile Include="12918.cpp">
-      <Filter>소스 파일\C++</Filter>
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
     <ClCompile Include="12919.cpp">
-      <Filter>소스 파일\C++</Filter>
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
     <ClCompile Include="12921.cpp">
-      <Filter>소스 파일\C++</Filter>
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
     <ClCompile Include="12922.cpp">
-      <Filter>소스 파일\C++</Filter>
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
     <ClCompile Include="12925.cpp">
-      <Filter>소스 파일\C++</Filter>
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
     <ClCompile Include="12926.cpp">
-      <Filter>소스 파일\C++</Filter>
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
     <ClCompile Include="12928.cpp">
-      <Filter>소스 파일\C++</Filter>
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
     <ClCompile Include="12930.cpp">
-      <Filter>소스 파일\C++</Filter>
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
     <ClCompile Include="12931.cpp">
-      <Filter>소스 파일\C++</Filter>
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
     <ClCompile Include="12932.cpp">
-      <Filter>소스 파일\C++</Filter>
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
     <ClCompile Include="12933.cpp">
-      <Filter>소스 파일\C++</Filter>
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
     <ClCompile Include="12934.cpp">
-      <Filter>소스 파일\C++</Filter>
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
     <ClCompile Include="12935.cpp">
-      <Filter>소스 파일\C++</Filter>
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
     <ClCompile Include="12937.cpp">
-      <Filter>소스 파일\C++</Filter>
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
     <ClCompile Include="12940.cpp">
-      <Filter>소스 파일\C++</Filter>
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
     <ClCompile Include="12943.cpp">
-      <Filter>소스 파일\C++</Filter>
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
     <ClCompile Include="12944.cpp">
-      <Filter>소스 파일\C++</Filter>
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
     <ClCompile Include="12947.cpp">
-      <Filter>소스 파일\C++</Filter>
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
     <ClCompile Include="12948.cpp">
-      <Filter>소스 파일\C++</Filter>
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
     <ClCompile Include="12950.cpp">
-      <Filter>소스 파일\C++</Filter>
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
     <ClCompile Include="12954.cpp">
-      <Filter>소스 파일\C++</Filter>
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
     <ClCompile Include="12982.cpp">
-      <Filter>소스 파일\C++</Filter>
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
     <ClCompile Include="17682%28not done%29.cpp">
-      <Filter>소스 파일\C++</Filter>
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
     <ClCompile Include="68644.cpp">
-      <Filter>소스 파일\C++</Filter>
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
-    <ClCompile Include="68935.cpp">
-      <Filter>소스 파일\C++</Filter>
+    <ClCompile Include="68935%28not done%29.cpp">
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
     <ClCompile Include="77884.cpp">
-      <Filter>소스 파일\C++</Filter>
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
     <ClCompile Include="82612.cpp">
-      <Filter>소스 파일\C++</Filter>
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
     <ClCompile Include="86491.cpp">
-      <Filter>소스 파일\C++</Filter>
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
     <ClCompile Include="87389.cpp">
-      <Filter>소스 파일\C++</Filter>
+      <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
