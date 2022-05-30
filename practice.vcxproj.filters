@@ -117,7 +117,7 @@
     <ClCompile Include="68644.cpp">
       <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
-    <ClCompile Include="68935%28not done%29.cpp">
+    <ClCompile Include="68935.cpp">
       <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
     <ClCompile Include="77884.cpp">

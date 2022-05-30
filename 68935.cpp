@@ -1,21 +1,21 @@
 #include <string>
-#include <vector>
+#include <stack>
 
 using namespace std;
 
 int solution(int n) {
     int answer = 0;
-    vector<int> ternary;
+	stack<int> ternary;
 	int a = 1;
 
     while (n > 0) {
-		ternary.push_back(n % 3);
+		ternary.push(n % 3);
         n /= 3;
     }
-
-	for (int i = ternary.size() - 1; i > 0; i--) {
-		answer += (ternary[i] % 10) * a;
+	while (!ternary.empty()) {
+		answer += ternary.top() * a;
 		a *= 3;
+		ternary.pop();
 	}
 
 	return answer;
