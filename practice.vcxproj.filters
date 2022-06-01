@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\C++\Level1">
       <UniqueIdentifier>{c0304dc5-e78b-4b98-869d-a9a244bce3a3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\C++\Level2">
+      <UniqueIdentifier>{01672d78-450d-43ad-bed8-d608d16bd3f8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="12901.cpp">
@@ -131,6 +134,9 @@
     </ClCompile>
     <ClCompile Include="87389.cpp">
       <Filter>소스 파일\C++\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="42586%28not done%29.cpp">
+      <Filter>소스 파일\C++\Level2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
