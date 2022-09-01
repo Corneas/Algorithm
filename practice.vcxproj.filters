@@ -141,5 +141,11 @@
     <ClCompile Include="42840.cpp">
       <Filter>소스 파일\C++\Level1</Filter>
     </ClCompile>
+    <ClCompile Include="81301.cpp">
+      <Filter>소스 파일\C++\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="72410.cpp">
+      <Filter>소스 파일\C++\Level1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
