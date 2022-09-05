@@ -33,12 +33,14 @@ string solution(vector<int> numbers, string hand) {
             hand_pos[1][1] = num_pos[1][0];
         }
 
-        else if (abs(hand_pos[0][0] - num_pos[0][0]) + abs(hand_pos[0][1] - num_pos[1][0]) < abs(hand_pos[1][0] - num_pos[0][0]) + abs(hand_pos[1][1] - num_pos[1][0])) {
+        else if (abs(hand_pos[0][0] - num_pos[0][0]) + abs(hand_pos[0][1] - num_pos[1][0]) 
+            < abs(hand_pos[1][0] - num_pos[0][0]) + abs(hand_pos[1][1] - num_pos[1][0])) {
             answer += "L";
             hand_pos[0][0] = num_pos[0][0];
             hand_pos[0][1] = num_pos[1][0];
         }
-        else if (abs(hand_pos[0][0] - num_pos[0][0]) + abs(hand_pos[0][1] - num_pos[1][0]) > abs(hand_pos[1][0] - num_pos[0][0]) + abs(hand_pos[1][1] - num_pos[1][0])) {
+        else if (abs(hand_pos[0][0] - num_pos[0][0]) + abs(hand_pos[0][1] - num_pos[1][0]) 
+            > abs(hand_pos[1][0] - num_pos[0][0]) + abs(hand_pos[1][1] - num_pos[1][0])) {
             answer += "R";
             hand_pos[1][0] = num_pos[0][0];
             hand_pos[1][1] = num_pos[1][0];
