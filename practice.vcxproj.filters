@@ -159,5 +159,14 @@
     <ClCompile Include="42888%28not done%29.cpp">
       <Filter>소스 파일\C++\Level2</Filter>
     </ClCompile>
+    <ClCompile Include="77484.cpp">
+      <Filter>소스 파일\C++\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="76501.cpp">
+      <Filter>소스 파일\C++\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="86051.cpp">
+      <Filter>소스 파일\C++\Level1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -8,7 +8,7 @@ string solution(vector<int> numbers, string hand) {
     string answer = "";
 
     int num_pos[2][1];
-    int hand_pos[2][2] = { {3, 0}, {3, 2} };
+    int hand_pos[2][2] = { {3, 0}, {3, 2} };    
 
     for (int i = 0; i < numbers.size(); ++i) {
 
