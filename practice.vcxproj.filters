@@ -25,7 +25,7 @@
     <Filter Include="소스 파일\C++\Programmers\Level2">
       <UniqueIdentifier>{01672d78-450d-43ad-bed8-d608d16bd3f8}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\C++\NewFilter1">
+    <Filter Include="소스 파일\C++\Baekjoon">
       <UniqueIdentifier>{b2995fd0-f6ee-47dd-9982-148a9245a688}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -175,6 +175,12 @@
       <Filter>소스 파일\C++\Programmers\Level1</Filter>
     </ClCompile>
     <ClCompile Include="42748.cpp">
+      <Filter>소스 파일\C++\Programmers\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="2178.cpp">
+      <Filter>소스 파일\C++\Baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="70128.cpp">
       <Filter>소스 파일\C++\Programmers\Level1</Filter>
     </ClCompile>
   </ItemGroup>
