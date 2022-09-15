@@ -26,11 +26,11 @@ int main(void) {
         x = q.front().second;
         q.pop();
         for (int i = 0; i < 4; i++) {
-            int ny = ;// 채워보자 
-            int nx = ;// 채워보자 
-            if (ny < 0 || ny > n && visited[ny][nx] == true) continue;// 채워보자   ) continue;
-            if (nx  < 0 || ny > m && visited[ny][nx] == true) continue;// 채워보자   ) continue;
-            visited[ny][nx] = ;// 채워보자 
+            int ny = y + dy[i];
+            int nx = x + dx[i];
+            if (ny < 0 || nx < 0 || ny >= n || nx >= m) continue;
+            if (a[ny][nx] == 0 || visited[ny][nx] > 0) continue;
+            visited[ny][nx] = visited[y][x] + 1;
             q.push({ ny, nx });
         }
     }
