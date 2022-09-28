@@ -28,6 +28,9 @@
     <Filter Include="소스 파일\C++\Baekjoon">
       <UniqueIdentifier>{b2995fd0-f6ee-47dd-9982-148a9245a688}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\C++\Baekjoon\Bronze">
+      <UniqueIdentifier>{27422749-dd50-42c3-97dc-5be1244d4653}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="12901.cpp">
@@ -177,9 +180,6 @@
     <ClCompile Include="42748.cpp">
       <Filter>소스 파일\C++\Programmers\Level1</Filter>
     </ClCompile>
-    <ClCompile Include="2178.cpp">
-      <Filter>소스 파일\C++\Baekjoon</Filter>
-    </ClCompile>
     <ClCompile Include="70128.cpp">
       <Filter>소스 파일\C++\Programmers\Level1</Filter>
     </ClCompile>
@@ -189,26 +189,35 @@
     <ClCompile Include="76502.cpp">
       <Filter>소스 파일\C++\Programmers\Level2</Filter>
     </ClCompile>
-    <ClCompile Include="1012.cpp">
-      <Filter>소스 파일\C++\Baekjoon</Filter>
-    </ClCompile>
-    <ClCompile Include="5532.cpp">
-      <Filter>소스 파일\C++\Baekjoon</Filter>
-    </ClCompile>
     <ClCompile Include="12914.cpp">
       <Filter>소스 파일\C++\Programmers\Level2</Filter>
     </ClCompile>
     <ClCompile Include="70129.cpp">
       <Filter>소스 파일\C++\Programmers\Level2</Filter>
     </ClCompile>
-    <ClCompile Include="B_11948.cpp">
-      <Filter>소스 파일\C++\Baekjoon</Filter>
+    <ClCompile Include="1012.cpp">
+      <Filter>소스 파일\C++\Baekjoon\Bronze</Filter>
     </ClCompile>
-    <ClCompile Include="B_1264.cpp">
-      <Filter>소스 파일\C++\Baekjoon</Filter>
+    <ClCompile Include="2178.cpp">
+      <Filter>소스 파일\C++\Baekjoon\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="5532.cpp">
+      <Filter>소스 파일\C++\Baekjoon\Bronze</Filter>
     </ClCompile>
     <ClCompile Include="B_1157.cpp">
-      <Filter>소스 파일\C++\Baekjoon</Filter>
+      <Filter>소스 파일\C++\Baekjoon\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="B_1264.cpp">
+      <Filter>소스 파일\C++\Baekjoon\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="B_11948.cpp">
+      <Filter>소스 파일\C++\Baekjoon\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="1032.cpp">
+      <Filter>소스 파일\C++\Baekjoon\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="1037.cpp">
+      <Filter>소스 파일\C++\Baekjoon\Bronze</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
