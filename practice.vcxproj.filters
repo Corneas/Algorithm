@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\C++\Baekjoon\Bronze">
       <UniqueIdentifier>{27422749-dd50-42c3-97dc-5be1244d4653}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\C++\Baekjoon\Silver">
+      <UniqueIdentifier>{a9669e50-6151-4753-a9a2-4c8ff4708ca9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="12901.cpp">
@@ -218,6 +221,9 @@
     </ClCompile>
     <ClCompile Include="1037.cpp">
       <Filter>소스 파일\C++\Baekjoon\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="1181.cpp">
+      <Filter>소스 파일\C++\Baekjoon\Silver</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
