@@ -243,5 +243,8 @@
     <ClCompile Include="B_1316.cpp">
       <Filter>소스 파일\C++\Baekjoon\Silver</Filter>
     </ClCompile>
+    <ClCompile Include="B_1439.cpp">
+      <Filter>소스 파일\C++\Baekjoon\Silver</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
