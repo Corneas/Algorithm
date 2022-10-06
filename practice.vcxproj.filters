@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\C++\Baekjoon\Bronze">
       <UniqueIdentifier>{27422749-dd50-42c3-97dc-5be1244d4653}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\C++\Baekjoon\Gold">
+      <UniqueIdentifier>{745da598-3b14-49f7-afbc-d53caccce3be}</UniqueIdentifier>
+    </Filter>
     <Filter Include="소스 파일\C++\Baekjoon\Silver">
       <UniqueIdentifier>{a9669e50-6151-4753-a9a2-4c8ff4708ca9}</UniqueIdentifier>
     </Filter>
