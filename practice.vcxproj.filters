@@ -258,5 +258,11 @@
     <ClCompile Include="B_1343.cpp">
       <Filter>소스 파일\C++\Baekjoon\Silver</Filter>
     </ClCompile>
+    <ClCompile Include="B_7576%28not done%29.cpp">
+      <Filter>소스 파일\C++\Baekjoon\Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="12924.cpp">
+      <Filter>소스 파일\C++\Programmers\Level2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
