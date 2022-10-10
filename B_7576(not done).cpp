@@ -6,8 +6,8 @@ const int MAX = 1000;
 
 using namespace std;
 
-int h;
-int v;
+int row;		// За
+int column;		// ї­
 int farm[MAX][MAX];
 bool visited[MAX][MAX];
 
@@ -24,10 +24,10 @@ void CheckTomato(int x, int y);
 int main(void) {
 	int day = 0;
 	int c = 0;
-	cin >> h >> v;
+	cin >> row >> column;
 
-	for (int y = 0; y < h; ++y) {
-		for (int x = 0; x < v; ++x) {
+	for (int y = 0; y < column; ++y) {
+		for (int x = 0; x < row; ++x) {
 			cin >> farm[y][x];
 			visited[y][x] = false;
 			
@@ -44,13 +44,13 @@ int main(void) {
 	while (c < vec.size()) {
 		int x = vec[c].first;
 		int y = vec[c].second;
-		c++;
 
 		if (farm[y][x] > 0 && !visited[y][x]) {
 			CheckTomato(x, y);
 		}
 
 		day = farm[y][x];
+		c++;
 	}
 
 	if (tomato == numTomato) {
@@ -68,7 +68,7 @@ void CheckTomato(int x, int y) {
 		int nx = x + dx[i];
 		int ny = y + dy[i];
 
-		if (nx < 0 || ny < 0 || ny >= h || nx >= v) {
+		if (nx < 0 || ny < 0 || ny >= column || nx >= row) {
 			continue;
 		}
 
