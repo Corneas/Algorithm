@@ -1,3 +1,4 @@
 # Programmers_Algorithm
 #1 question per day
-Getting acquainted with 'vector'
+
+*Getting acquainted with 'vector'*
