@@ -28,13 +28,11 @@ int main(void) {
 		int n;
 		cin >> n;
 		if (sCard.find(n) != sCard.end()) {
-			cout << "1";
+			cout << "1 ";
 		}
 		else {
-			cout << "0";
+			cout << "0 ";
 		}
-
-		cout << " ";
 	}
 
 

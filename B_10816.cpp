@@ -11,36 +11,26 @@ int main(void) {
 
 	map<int, int> sCard;
 
-	int len;
+	int len, len2;
 
 	cin >> len;
-
+	
 	for (int i = 0; i < len; ++i) {
 		int n;
 		cin >> n;
-		if (sCard.find(n) != sCard.end()) {
-			sCard.find(n)->second++;
-		}
-		else {
-			sCard[n] = 1;
-		}
+		sCard[n]++;
 	}
 
-	int len2;
 	cin >> len2;
 
 	for (int i = 0; i < len2; ++i) {
 		int n;
 		cin >> n;
 		if (sCard.find(n) != sCard.end()) {
-			cout << sCard.find(n)->second;
+			cout << sCard.find(n)->second << " ";
 		}
 		else {
-			cout << "0";
+			cout << "0 ";
 		}
-
-		cout << " ";
 	}
-
-
 }
