@@ -4,9 +4,6 @@ using namespace std;
 
 int main(void) {
 
-	//cout << fixed;
-	//cout.precision(0);
-
 	long long X;
 	long long Y;
 	long long Z;
@@ -35,6 +32,8 @@ int main(void) {
 
 		temp = (100 * (Y + mid)) / (X + mid);
 
+		cout << temp << endl;
+
 		if (Z >= temp) {
 			playCount = mid + 1;
 			low = mid + 1;
@@ -42,12 +41,10 @@ int main(void) {
 		else {
 			high = mid - 1;
 		}
-
-		cout << "low : " << low << endl;
-		cout << "high : " << high << endl;
 	}
 
 	cout << playCount;
+
 	return 0;
 
 }
