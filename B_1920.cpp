@@ -29,6 +29,10 @@ int main(void) {
 
 	cin >> m;
 
+	for (int i = 0; i < m; ++i) {
+		answer.push_back(0);
+	}
+
 	int low = 0;
 	int high = n;
 	int mid = 0;
@@ -45,13 +49,12 @@ int main(void) {
 
 			mid = (low + high) / 2;
 
-			if (mid >= m) {
-				answer.push_back(0);
+			if (mid >= n) {
 				break;
 			}
 
 			if (v[mid] == num) {
-				answer.push_back(1);
+				answer[i] = 1;
 				break;
 			}
 			else if (v[mid] < num) {
