@@ -18,7 +18,7 @@ int solution(string dirs) {
 
     for (int i = 0; i < dirs.length(); ++i) {
 
-        if (px < 0 || px > 10 || py < 0 || py > 10) {
+        if (px < 1 || px > 9 || py < 1 || py > 9) {
             continue;
         }
 
@@ -82,7 +82,7 @@ int solution(string dirs) {
         py = ny;
 
         cout << "현재좌표 : (" << px - 5 << ", " << py - 5 << ")" << endl;
-        cout << i << "번째 : " << answer << "회" << endl;
+        cout << i + 1 << "번째 : " << answer << "회" << endl;
 
     }
 

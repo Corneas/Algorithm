@@ -19,8 +19,8 @@ int main(void)
 	int n = 0;
 	cin >> n;
 
-	int l;
-	int r;
+	int l = 0;
+	int r = 0;
 
 	for (int i = 0; i < n; ++i) {
 		cin >> l >> r;
