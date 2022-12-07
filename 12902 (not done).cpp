@@ -4,10 +4,18 @@
 
 using namespace std;
 
+long long modMul(long long n, int mul) {
+    return ((n % 1000000007) * (mul % 1000000007)) % 1000000007;
+}
+
+long long modSub(long long n, int sub) {
+    return ((n % 1000000007) - (sub % 1000000007)) % 1000000007;
+}
+
 int solution(int n) {
     int answer = 0;
 
-    long s[2501] = { 0 };
+    long long s[2501] = { 0 };
 
     int width = n; 
     int length = 3;
@@ -21,10 +29,10 @@ int solution(int n) {
     }
 
     for (int i = 3; i <= n; ++i) {
-        s[i] = (((4 * s[i - 1]) % 1000000007) - ((s[i - 2]) % 1000000007)) % 1000000007;
+        s[i] = modSub(modMul(s[i - 1], 4) , (s[i - 2]));
     }
 
-    answer = s[n / 2];
+    answer = s[n / 2] % 1000000007;
 
 
     return answer;
