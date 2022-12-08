@@ -22,6 +22,7 @@ int main(void) {
 
 	for (int i = 1; i <= N; ++i) {
 		for (int j = 1; j <= K; ++j) {
+			// 아이템 i의 무게가 배낭 용량을 초과하면
 			if (v[i] > K) {
 				DP[j][i] = DP[i - 1][w[j]];
 			}
