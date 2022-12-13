@@ -9,30 +9,30 @@ long long modMul(long long n, int mul) {
 }
 
 long long modSub(long long n, int sub) {
-    return ((n % 1000000007) - (sub % 1000000007)) % 1000000007;
+    return ((n % 1000000007) - (sub % 1000000007) + 1000000007) % 1000000007;
 }
 
 int solution(int n) {
     int answer = 0;
 
-    long long s[2501] = { 0 };
+    long long s[5001] = { 0 };
 
     int width = n; 
     int length = 3;
 
     s[0] = 0;
-    s[1] = 3;
-    s[2] = 11;
+    s[2] = 3;
+    s[4] = 11;
 
     if ((width * length) % 2 != 0) {
         return 0;
     }
 
-    for (int i = 3; i <= n; ++i) {
-        s[i] = modSub(modMul(s[i - 1], 4) , (s[i - 2]));
+    for (int i = 6; i <= n; i+=2) {
+        s[i] = modSub(modMul(s[i - 2], 4) , (s[i - 4])) % 1000000007;
     }
 
-    answer = s[n / 2] % 1000000007;
+    answer = s[n] % 1000000007;
 
 
     return answer;
