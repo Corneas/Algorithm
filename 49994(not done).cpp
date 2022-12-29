@@ -18,11 +18,10 @@ int solution(string dirs) {
 
     for (int i = 0; i < dirs.length(); ++i) {
 
-        if (px < 1 || px > 9 || py < 1 || py > 9) {
-            continue;
-        }
-
         if (dirs[i] == 'U') {
+            if (py + 1 > 11) {
+                continue;
+            }
             ny = py + 1;
             if (ny != ly) {
                 if (xy[ny][nx]) {
@@ -36,6 +35,9 @@ int solution(string dirs) {
             }
         }
         else if (dirs[i] == 'D') {
+            if (py - 1 < 0) {
+                continue;
+            }
             ny = py - 1;
             if (ny != ly) {
                 if (xy[ny][nx]) {
@@ -48,7 +50,11 @@ int solution(string dirs) {
                 }
             }
         }
+
         else if (dirs[i] == 'L') {
+            if (px - 1 < 0) {
+                continue;
+            }
             nx = px - 1;
             if (nx != lx) {
                 if (xy[ny][nx]) {
@@ -62,6 +68,9 @@ int solution(string dirs) {
             }
         }
         else if (dirs[i] == 'R') {
+            if (px + 1 > 11) {
+                continue;
+            }
             nx = px + 1;
             if (nx != lx) {
                 if (xy[ny][nx]) {

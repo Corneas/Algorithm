@@ -366,5 +366,11 @@
     <ClCompile Include="1845.cpp">
       <Filter>소스 파일\C++\Programmers\Level1</Filter>
     </ClCompile>
+    <ClCompile Include="42577.cpp">
+      <Filter>소스 파일\C++\Programmers\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="138476.cpp">
+      <Filter>소스 파일\C++\Programmers\Level2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
