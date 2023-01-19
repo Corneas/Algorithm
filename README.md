@@ -1,6 +1,9 @@
 # Programmers_Algorithm
 #1 question per day
 
+P_0000 => Programmers  
+B_0000 => BaekJoon
+
 *Getting acquainted with 'vector'*  
 
 My Alogrithm Note in Korea!  
