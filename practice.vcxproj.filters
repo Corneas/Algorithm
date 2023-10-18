@@ -372,5 +372,20 @@
     <ClCompile Include="138476.cpp">
       <Filter>소스 파일\C++\Programmers\Level2</Filter>
     </ClCompile>
+    <ClCompile Include="12985.cpp">
+      <Filter>소스 파일\C++\Programmers\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="12953.cpp">
+      <Filter>소스 파일\C++\Programmers\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="11726.cpp">
+      <Filter>소스 파일\C++\Baekjoon\Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="42578.cpp">
+      <Filter>소스 파일\C++\Programmers\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="161990.cpp">
+      <Filter>소스 파일\C++\Programmers\Level1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
